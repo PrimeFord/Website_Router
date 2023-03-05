@@ -3,7 +3,7 @@ import React from "react";
 const Pagelayout = (props) => {
   return (
     <div className="px-[3rem] pt-[9rem] flex pb-[4rem] text-[#16002c]">
-      <div className="w-[50%] py-[8em] px-4">
+      <div className="w-[50%] py-[6em] px-4">
         <p className="w-[90%] text-[1.2rem] font-[700] leading-[1.5rem] mb-4">
           {props.p1}
         </p>
