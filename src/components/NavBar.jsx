@@ -10,7 +10,7 @@ const NavBar = () => {
           className="w-[8rem] h-[2.5rem] flex-grow-1"
           src="/image/logo.svg"
           alt=""
-        ></img>
+        />
       </Link>
       <div className="w-[60%] text-[1.15rem]">
         <Link to="/purpose">Purpose</Link>
