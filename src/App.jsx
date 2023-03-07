@@ -2,7 +2,6 @@ import { useState } from "react";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import React from "react";
 import "./App.css";
-import Share from "./Pages/Share";
 import Purpose from "./Pages/Purpose";
 import Community from "./Pages/Community";
 import Career from "./Pages/Career";
@@ -13,10 +12,6 @@ import NotFound from "./Pages/Notfound";
 function App() {
   const [count, setCount] = useState(0);
   const routes = createBrowserRouter([
-    {
-      path: "/",
-      element: <Share />,
-    },
     {
       path: "/purpose",
       element: <Purpose />,
