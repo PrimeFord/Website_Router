@@ -2,7 +2,7 @@ import React from "react";
 import LearnLayout from "../Components/LearnLayout";
 import NavBar from "../components/NavBar";
 
-const Learn = () => {
+const Learnn = () => {
   return (
     <div>
       <NavBar />
@@ -16,4 +16,4 @@ const Learn = () => {
   );
 };
 
-export default Learn;
+export default Learnn;

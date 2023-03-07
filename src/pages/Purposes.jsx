@@ -2,7 +2,7 @@ import React from "react";
 import NavBar from "../components/NavBar";
 import Pagelayout from "../Components/Pagelayout";
 
-const Purpose = () => {
+const Purposes = () => {
   return (
     <div className="bg-[#e8d6d5] h-fit w-[100%]">
       <NavBar />
@@ -16,4 +16,4 @@ const Purpose = () => {
   );
 };
 
-export default Purpose;
+export default Purposes;

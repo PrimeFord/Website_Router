@@ -1,7 +1,7 @@
 import React from "react";
 import NavBar from "../components/NavBar";
 
-const Share = () => {
+const Shares = () => {
   return (
     <div className="bg-[#dfdacd] h-fit w-[100%] ">
       <NavBar />
@@ -32,4 +32,4 @@ const Share = () => {
   );
 };
 
-export default Share;
+export default Shares;

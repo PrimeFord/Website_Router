@@ -2,11 +2,11 @@ import { useState } from "react";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import React from "react";
 import "./App.css";
-import Share from "./Pages/Share";
-import Purpose from "./Pages/Purpose";
-import Community from "./Pages/Community";
-import Career from "./Pages/Career";
-import Learn from "./Pages/Learn";
+import Shares from "./Pages/Shares";
+import Purposes from "./Pages/Purposes";
+import Communityy from "./Pages/Communityy";
+import Careers from "./Pages/Careers";
+import Learnn from "./Pages/Learnn";
 import United from "./Pages/United";
 import NotFound from "./Pages/Notfound";
 
@@ -15,23 +15,23 @@ function App() {
   const routes = createBrowserRouter([
     {
       path: "/",
-      element: <Share />,
+      element: <Shares />,
     },
     {
       path: "/purpose",
-      element: <Purpose />,
+      element: <Purposes />,
     },
     {
       path: "/community",
-      element: <Community />,
+      element: <Communityy />,
     },
     {
       path: "/career",
-      element: <Career />,
+      element: <Careers />,
     },
     {
       path: "/learn",
-      element: <Learn />,
+      element: <Learnn />,
     },
     {
       path: "/united",
